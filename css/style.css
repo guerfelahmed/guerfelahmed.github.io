@@ -802,11 +802,19 @@ fieldset {
         font-size: 10px;
     }
 }
-@media all and  (max-width:768px)
+@media all and  (max-width:1439px)
 {
    #home
    {
       background-image: url(../img/home-bg-2f.jpg);
+      background-attachment: fixed; /* Le fond restera fixe */
+      background-repeat: no-repeat; /* Le fond ne sera pas répété */
+   }
+   @media all and  (max-width:850px)
+{
+   #home
+   {
+      background-image: url(../img/abc.jpg);
       background-attachment: fixed; /* Le fond restera fixe */
       background-repeat: no-repeat; /* Le fond ne sera pas répété */
    }
