@@ -802,7 +802,7 @@ fieldset {
         font-size: 10px;
     }
 }
-@media all and  (max-width:750px)
+@media all and  (max-width:768px)
 {
    #home
    {
